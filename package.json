@@ -1,0 +1,19 @@
+{
+  "name": "url-shortening-api-master-2",
+  "version": "1.0.0",
+  "description": "url-short-app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SharpeCode57/url-shortener2.git"
+  },
+  "author": "GS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SharpeCode57/url-shortener2/issues"
+  },
+  "homepage": "https://github.com/SharpeCode57/url-shortener2#readme"
+}
