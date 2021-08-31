@@ -8,14 +8,131 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
   <!-- Our custom css -->
   <link rel="stylesheet" href="style.css">
+  
   <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
 
   </style>
 </head>
 <body>
 
-    
+    <!-- HEADER SECTION -->
+    <header>
+      <div class="container">
+        <nav>
+          <img src="./images/logo.svg" alt="Logo">
 
+          <input type="checkbox" class="check" id="toggle">
+          <label for="toggle" class="hamburger" id="hamburger">
+            <img src="./images/134216_menu_lines_hamburger_icon.svg" alt="hamburger menu icon">
+          </label>
+
+          <ul class="nav-ul">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Resources</a></li>
+            <li class="u-login"><a href="#">Login</a></li>
+            <li class="u-login"><a href="#">Sign up</a></li>
+          </ul>
+
+          <div class="login">
+            <a href="#">Login</a>
+            <a href="#" class="btn">Sign Up</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- INTRO -->
+      <section class="intro-section">
+        <div class="container intro">
+          <div class="intro-text">
+            <h1 class="u-mb-small">More than just <span>shorter links</span></h1>
+            <p class="u-mb-medium">
+              Build your brand’s recognition and get detailed insights 
+  on how your links are performing.
+            </p>
+            <a href="#" class="btn btn-large">Get Started!</a>
+          </div>
+          <div class="intro-image">
+            <img src="./images/illustration-working.svg" alt="person working">
+          </div>
+        </div>
+      </section>
+      <!-- INPUT ABOUT AND FEATURES -->
+      <section class="input-section">
+        <div class="container">
+          <div class="input-box u-mb-large">
+            <form action="" id="link-form">
+                <input type="text" placeholder="Shorten your link here..." class="main-input" id="input">
+                <button type="submit" class="link-btn main-submit" id="submit">Shorten It!</button>
+
+            </form>
+            
+          </div>
+          <div id="loading"></div>
+          <p class="error-text">Please add a link</p>
+          <div class="links-shortened-results"></div>
+          <div class="about">
+            <h2 class="u-mb-small">
+              Advanced Statistics
+            </h2>
+            <p class="u-mb-small">
+              Track how your links are performing across the web with our 
+              advanced statistics dashboard.
+            </p>
+          </div>
+          <div class="features-section">
+            <div class="container feature">
+              <div class="feature-box box-1">
+                <div class="feature-img">
+                  <img src="./images/icon-brand-recognition.svg" alt="brand recognition">
+                </div>
+                <h3>Brand Recognition</h3>
+                <p>
+                  Boost your brand recognition with each click. Generic links don’t 
+                  mean a thing. Branded links help instil confidence in your content.
+                </p>
+              </div>
+
+              <div class="feature-box box-2">
+                <div class="feature-img">
+                  <img src="./images/icon-detailed-records.svg" alt="Detailed Records">
+                </div>
+                <h3>Detailed Records</h3>
+                <p>
+                  Gain insights into who is clicking your links. Knowing when and where 
+                  people engage with your content helps inform better decisions.
+                </p>
+              </div>
+
+              <div class="feature-box box-3">
+                <div class="feature-img">
+                  <img src="./images/icon-fully-customizable.svg" alt="brand recognition">
+                </div>
+                <h3>Fully Customizable</h3>
+                <p>
+                  Improve brand awareness and content discoverability through customizable 
+  links, supercharging audience engagement.
+                </p>
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- BOOST SECTION -->
+      <section class="boost-section">
+        <div class="container boost">
+          <h2 class="u-mb-medium">Boost your links today</h2>
+          <a href="#" class="btn btn-large">Get Started!</a>
+        </div>
+      </section>
+      <!-- FOOTER SECTION -->
+
+    </main>
+    <script src="app.js"></script>
 
 </body>
 </html>
